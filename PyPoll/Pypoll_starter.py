@@ -1,3 +1,4 @@
+# %%
 # -*- coding: UTF-8 -*-
 """PyPoll Homework Starter File."""
 
@@ -11,6 +12,9 @@ import sys
 election_data_csv = os.path.join('resources', 'election_data.csv')  # Input file path
 election_analysis_txt = os.path.join('analysis', 'election_analysis.txt')  # Output file path
 
+
+
+# %%
 # Initialize variables to track the election data
 vote_list = []
 
@@ -20,6 +24,8 @@ original_dict={}
 # Winning Candidate and Winning Count Tracker
 winning_candidate = []
 
+
+# %%
 # Open the CSV file and process it
 with open(election_data_csv, 'r') as election_data:
     csvreader = csv.reader(election_data, delimiter=',')
@@ -54,7 +60,11 @@ with open(election_data_csv, 'r') as election_data:
 
     # Find the key with the maximum value as "winning_candidate"
     winning_candidate = max(original_dict, key=original_dict.get)
- 
+    
+
+
+
+# %%
 # Print results
 print('Election Results')
 print('--------------------------------')
@@ -67,15 +77,16 @@ print('--------------------------------')
 print("Winner: ",winning_candidate)
 print('--------------------------------')  
 
+# %%
 # Open a text file to save the output
 with open(election_analysis_txt, 'w') as f:
-    f.write('Election Results')
-    f.write('--------------------------------')
-    f.write(f"Total Votes: {vote}")
-    f.write('--------------------------------')
+    f.write('Election Results\n')
+    f.write('--------------------------------\n')
+    f.write(f"Total Votes: {vote}\n")
+    f.write('--------------------------------\n')
 
-    f.write('--------------------------------')  
-    f.write(f"Winner: {winning_candidate}")
-    f.write('--------------------------------')  
+    f.write('--------------------------------\n')  
+    f.write(f"Winner: {winning_candidate}\n")
+    f.write('--------------------------------\n')  
 
-
+print(f"Election results saved to {election_analysis_txt}")
