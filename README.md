@@ -87,9 +87,6 @@ Contributions are welcome! To contribute:
 3. Make your changes and commit them.
 4. Submit a pull request.
 
-## 📞 Contact
-For any questions, reach out via GitHub or email: [your-email@example.com](mailto:your-email@example.com)
-
 ## Acknowledgments
 
 This project was developed with the assistance of the following resources:
