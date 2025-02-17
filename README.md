@@ -69,7 +69,7 @@ python PyBank/main.py
 ![image](https://github.com/user-attachments/assets/e79d3ecc-ba6a-4878-9c57-2f62d05e863a)
 
 ### PyBank Output (Console & budget_analysis)
-![image](https://github.com/user-attachments/assets/c07c0cd5-7a1d-455f-b47b-dd40990108ce)
+![image](https://github.com/user-attachments/assets/14e7b7be-39b9-4b1f-8260-dd668d791071)
 
 ```
 
