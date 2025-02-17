@@ -63,29 +63,14 @@ python PyBank/main.py
 
 ## 📌 Example Output
 ### PyPoll Output (Console)
-```
-Election Results
---------------------------------
-Total Votes: 3521001
---------------------------------
-Khan: 63.0% (2218231)
-Correy: 20.0% (704200)
-Li: 14.0% (492940)
-O'Tooley: 3.0% (105630)
---------------------------------
-Winner: Khan
---------------------------------
-```
+![image](https://github.com/user-attachments/assets/b1ab08e5-0b3c-4bad-ae46-ca52664f0c60)
 
-### PyBank Output (Console)
-```
-Financial Analysis
----------------------------
-Total Months: 86
-Total: $38382578
-Average Change: $-2315.12
-Greatest Increase in Profits: ($1926159)
-Greatest Decrease in Profits: ($-2196167)
+### PyPoll Output (election_analysis)
+![image](https://github.com/user-attachments/assets/e79d3ecc-ba6a-4878-9c57-2f62d05e863a)
+
+### PyBank Output (Console & budget_analysis)
+![image](https://github.com/user-attachments/assets/c07c0cd5-7a1d-455f-b47b-dd40990108ce)
+
 ```
 
 ## 🛠️ Technologies Used
