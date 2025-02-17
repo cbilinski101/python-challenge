@@ -66,7 +66,8 @@ python PyBank/main.py
 ![image](https://github.com/user-attachments/assets/b1ab08e5-0b3c-4bad-ae46-ca52664f0c60)
 
 ### PyPoll Output (election_analysis)
-![image](https://github.com/user-attachments/assets/e79d3ecc-ba6a-4878-9c57-2f62d05e863a)
+![image](https://github.com/user-attachments/assets/7a3706b5-8af1-49f1-9c9d-fc1620046fff)
+
 
 ### PyBank Output (Console & budget_analysis)
 ![image](https://github.com/user-attachments/assets/14e7b7be-39b9-4b1f-8260-dd668d791071)
