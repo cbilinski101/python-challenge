@@ -71,8 +71,6 @@ python PyBank/main.py
 ### PyBank Output (Console & budget_analysis)
 ![image](https://github.com/user-attachments/assets/d036add4-d2ee-4399-bed6-16197e71b373)
 
-```
-
 ## 🛠️ Technologies Used
 - Python
 - CSV Module
