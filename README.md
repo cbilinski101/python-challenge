@@ -1,4 +1,115 @@
-# python-challenge
-#  I accessed help through: Xpert Learning Assistant, a turoring Session with Brandon Wong, and previous class assignments.
-# In PyBank - I could not get the dates to print next to the results for "Greatest Increase/Decrease in Profits".
-# In PyPoll - I could not get the file to write properly to the text.file.
+# PyPoll & PyBank Analysis
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python)](https://www.python.org/downloads/)  
+[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/license/mit)
+
+## 📌 Project Overview
+This repository contains two Python scripts for financial and election data analysis:
+- **PyPoll**: Analyzes election results from a CSV file and determines the winner based on vote counts.
+- **PyBank**: Analyzes financial records to calculate total profits/losses, the greatest increase and decrease in profits, and the average change in profit over time.
+
+## 📂 Directory Structure
+```
+project-directory/
+│── PyBank/
+│   │── resources/  # Folder for input CSV files
+│   │── analysis/   # Folder for output TXT reports
+│   │── main.py  # Financial analysis script
+│
+│── PyPoll/
+│   │── resources/  # Folder for input CSV files
+│   │── analysis/   # Folder for output TXT reports
+│   │── main.py  # Election analysis script
+│
+│── Screenshots/  # Folder containing screenshots
+│── README.md  # Project documentation
+```
+
+## 🚀 Features
+### PyPoll:
+✅ Reads election data from a CSV file.  
+✅ Computes the total number of votes cast.  
+✅ Determines each candidate’s vote count and percentage.  
+✅ Declares the election winner.  
+✅ Outputs the results to the console and a text file.
+
+### PyBank:
+✅ Reads financial data from a CSV file.  
+✅ Computes the total number of months in the dataset.  
+✅ Calculates the total profit/loss over the period.  
+✅ Determines the average change in profit/loss.  
+✅ Identifies the greatest increase and decrease in profits.  
+✅ Outputs the results to the console and a text file.
+
+## 📥 Installation & Usage
+### Prerequisites
+Ensure you have **Python 3.x** installed on your system.
+
+### Clone the Repository
+```sh
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+### Run PyPoll
+```sh
+python PyPoll/main.py
+```
+
+### Run PyBank
+```sh
+python PyBank/main.py
+```
+
+## 📌 Example Output
+### PyPoll Output (Console)
+```
+Election Results
+--------------------------------
+Total Votes: 3521001
+--------------------------------
+Khan: 63.0% (2218231)
+Correy: 20.0% (704200)
+Li: 14.0% (492940)
+O'Tooley: 3.0% (105630)
+--------------------------------
+Winner: Khan
+--------------------------------
+```
+
+### PyBank Output (Console)
+```
+Financial Analysis
+---------------------------
+Total Months: 86
+Total: $38382578
+Average Change: $-2315.12
+Greatest Increase in Profits: ($1926159)
+Greatest Decrease in Profits: ($-2196167)
+```
+
+## 🛠️ Technologies Used
+- Python
+- CSV Module
+- OS Module
+- Time Module (for PyPoll loading indicator)
+
+## 📜 License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+Contributions are welcome! To contribute:
+1. Fork this repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Submit a pull request.
+
+## 📞 Contact
+For any questions, reach out via GitHub or email: [your-email@example.com](mailto:your-email@example.com)
+
+## Acknowledgments
+
+This project was developed with the assistance of the following resources:
+
+- **"U of T" (Turtoring Session - Xpert Learning Assistant - GitLab Activites)** – Provided guidance on code and explanations.
+- **ChatGPT** – Assisted with code, explanations, and README formatting. 
